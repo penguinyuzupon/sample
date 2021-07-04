@@ -12,6 +12,10 @@ body {
     color: #00ABAE;
 }
 
+.sub-title {
+    font-size: 32px;
+}
+
 /*
 *[header]のスタイルシート
 */
@@ -29,3 +33,78 @@ body {
     letter-spacing: 1px;
 }
 
+/*
+*[mainタグ]のスタイルシート
+*/
+
+.block-main {
+    text-align: center;
+    margin: 100px 0;
+}
+
+/*
+*[profil]のスタイルシート
+*/
+
+img[src$="img/IMG_5572.JPG"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center center;
+}
+
+
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list b {
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p {
+    font-size: 15px;
+    line-height: normal;
+    text-align: left;
+}
+
+.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin:  30px auto;
+    padding:  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img[src$="img/github.svg"] {
+    width: 70px;
+    height: 70px;
+}
+
+img[src$="img/twitter.svg"]{
+    width: 70px;
+    height: 70px;
+}
+
+img[src$="img/instagram.png"]{
+    width: 70px;
+    height: 70px;
+}
+
+.icon-list li {
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.icon-lisrt li:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
