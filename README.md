@@ -4,4 +4,4 @@ portfolio
 ポートフォリオのサンプルです。
 
 ## デモ
- https://yuzuki-portfolio.herokuapp.com/
+ [webサイトを見る](https://yuzuki-portfolio.herokuapp.com/)
